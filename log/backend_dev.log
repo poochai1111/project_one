@@ -1,0 +1,78 @@
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category" (/category.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_new" (/category/new.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_create" (/category.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_edit" (/category/:id/edit.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_update" (/category/:id.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_delete" (/category/:id.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_show" (/category/:id.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_object" (/category/:id/:action.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_collection" (/category/:action/action.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job" (/job.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_new" (/job/new.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_create" (/job.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_edit" (/job/:id/edit.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_update" (/job/:id.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_delete" (/job/:id.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_show" (/job/:id.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_object" (/job/:id/:action.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_collection" (/job/:action/action.:sf_format)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 06 03:37:04 symfony [info] {sfPatternRouting} Match route "jobeet_category" (/category.:sf_format) for /category with parameters array (  'module' => 'category',  'action' => 'index',  'sf_format' => 'html',)
+Jan 06 03:37:04 symfony [info] {myUser} Automatic user logout due to timeout
+Jan 06 03:37:04 symfony [info] {myUser} User is not authenticated
+Jan 06 03:37:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 06 03:37:04 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Jan 06 03:37:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 06 03:37:04 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Jan 06 03:37:04 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 06 03:37:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 06 03:37:04 symfony [info] {defaultActions} Call "defaultActions->executeLogin()"
+Jan 06 03:37:04 symfony [info] {sfPHPView} Render "C:\Apache2.2\htdocs\jobeet\lib\vendor\symfony\lib/controller/default/templates/loginSuccess.php"
+Jan 06 03:37:04 symfony [info] {sfPHPView} Decorate content with "C:\Apache2.2\htdocs\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Jan 06 03:37:04 symfony [info] {sfPHPView} Render "C:\Apache2.2\htdocs\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Jan 06 03:37:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 06 03:37:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 06 03:37:04 symfony [info] {sfWebDebugLogger} Configuration 917.44 ms (13)
+Jan 06 03:37:04 symfony [info] {sfWebDebugLogger} Action "default/login" 0.44 ms (1)
+Jan 06 03:37:04 symfony [info] {sfWebDebugLogger} View "Success" for "default/login" 72.87 ms (1)
+Jan 06 03:37:04 symfony [info] {sfWebResponse} Send content (187969 o)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category" (/category.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_new" (/category/new.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_create" (/category.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_edit" (/category/:id/edit.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_update" (/category/:id.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_delete" (/category/:id.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_show" (/category/:id.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_object" (/category/:id/:action.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_category_collection" (/category/:action/action.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job" (/job.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_new" (/job/new.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_create" (/job.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_edit" (/job/:id/edit.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_update" (/job/:id.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_delete" (/job/:id.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_show" (/job/:id.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_object" (/job/:id/:action.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "jobeet_job_collection" (/job/:action/action.:sf_format)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 06 03:37:42 symfony [info] {sfPatternRouting} Match route "jobeet_job" (/job.:sf_format) for /job with parameters array (  'module' => 'job',  'action' => 'index',  'sf_format' => 'html',)
+Jan 06 03:37:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 06 03:37:43 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Jan 06 03:37:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 06 03:37:43 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Jan 06 03:37:43 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 06 03:37:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 06 03:37:43 symfony [info] {defaultActions} Call "defaultActions->executeLogin()"
+Jan 06 03:37:43 symfony [info] {sfPHPView} Render "C:\Apache2.2\htdocs\jobeet\lib\vendor\symfony\lib/controller/default/templates/loginSuccess.php"
+Jan 06 03:37:43 symfony [info] {sfPHPView} Decorate content with "C:\Apache2.2\htdocs\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Jan 06 03:37:43 symfony [info] {sfPHPView} Render "C:\Apache2.2\htdocs\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Jan 06 03:37:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 06 03:37:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 06 03:37:43 symfony [info] {sfWebDebugLogger} Configuration 435.31 ms (14)
+Jan 06 03:37:43 symfony [info] {sfWebDebugLogger} Action "default/login" 0.46 ms (1)
+Jan 06 03:37:43 symfony [info] {sfWebDebugLogger} View "Success" for "default/login" 32.32 ms (1)
+Jan 06 03:37:43 symfony [info] {sfWebResponse} Send content (180999 o)

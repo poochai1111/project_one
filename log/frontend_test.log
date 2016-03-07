@@ -1,0 +1,39 @@
+Jan 04 11:55:41 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 04 11:55:41 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 04 11:55:41 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 04 11:55:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/job.:sf_format)
+Jan 04 11:55:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/job/new.:sf_format)
+Jan 04 11:55:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/job.:sf_format)
+Jan 04 11:55:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/job/:id/edit.:sf_format)
+Jan 04 11:55:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/job/:id.:sf_format)
+Jan 04 11:55:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/job/:id.:sf_format)
+Jan 04 11:55:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/job/:id.:sf_format)
+Jan 04 11:55:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 04 11:55:41 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/category/:slug)
+Jan 04 11:55:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Jan 04 11:55:42 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Jan 04 11:55:42 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Jan 04 11:55:42 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Jan 04 11:55:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job" (/job.:sf_format)
+Jan 04 11:55:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_new" (/job/new.:sf_format)
+Jan 04 11:55:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_create" (/job.:sf_format)
+Jan 04 11:55:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_edit" (/job/:id/edit.:sf_format)
+Jan 04 11:55:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_update" (/job/:id.:sf_format)
+Jan 04 11:55:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_delete" (/job/:id.:sf_format)
+Jan 04 11:55:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show" (/job/:id.:sf_format)
+Jan 04 11:55:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug)
+Jan 04 11:55:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "category" (/category/:slug)
+Jan 04 11:55:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /category/index with parameters array (  'module' => 'category',  'action' => 'index',)
+Jan 04 11:55:42 symfony [info] {sfFilterChain} Executing filter "sfFakeRenderingFilter"
+Jan 04 11:55:42 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 04 11:55:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 04 11:55:42 symfony [info] {categoryActions} Call "categoryActions->executeIndex()"
+Jan 04 11:55:42 symfony [info] {categoryActions} Forward to action "default/module"
+Jan 04 11:55:42 symfony [info] {sfFilterChain} Executing filter "sfFakeRenderingFilter"
+Jan 04 11:55:42 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Jan 04 11:55:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 04 11:55:42 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+Jan 04 11:55:42 symfony [info] {sfPHPView} Render "C:\Apache2.2\htdocs\jobeet\lib\vendor\symfony\lib/controller/default/templates/moduleSuccess.php"
+Jan 04 11:55:42 symfony [info] {sfPHPView} Decorate content with "C:\Apache2.2\htdocs\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Jan 04 11:55:42 symfony [info] {sfPHPView} Render "C:\Apache2.2\htdocs\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Jan 04 11:55:42 symfony [info] {sfWebResponse} Send content (2012 o)

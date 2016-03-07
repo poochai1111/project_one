@@ -1,0 +1,9 @@
+# Auto-generated template
+object:
+  field: value
+
+indexSuccess:
+  stylesheets: [jobs.css]
+
+showSuccess:
+  stylesheets: [job.css]
